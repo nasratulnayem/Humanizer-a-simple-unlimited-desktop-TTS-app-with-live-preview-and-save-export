@@ -1,4 +1,4 @@
-# Humanizer — Desktop Text to Speech (TTS)
+# Humanizer - Desktop Text to Speech (TTS)
 
 Humanizer is a simple, responsive, and unlimited desktop TTS application.  
 It lets you preview spoken text in real time, adjust voice settings, and export audio to files.
@@ -8,12 +8,12 @@ The app is lightweight, cross-platform, and works on Linux and Windows.
 ---
 
 ## Features
-• Clean and minimal UI, responsive to all screen sizes  
-• Live preview of text before exporting  
-• Save or export audio in multiple formats  
-• Adjustable voice settings (pitch, rate, volume)  
-• Works offline once installed  
-• Cross-platform support (Windows & Linux/WSL)  
+- Clean and minimal UI, responsive to all screen sizes  
+- Live preview of text before exporting  
+- Save or export audio in multiple formats  
+- Adjustable voice settings (pitch, rate, volume)  
+- Works offline once installed  
+- Cross-platform support (Windows & Linux/WSL)  
 
 ---
 
@@ -22,67 +22,88 @@ The app is lightweight, cross-platform, and works on Linux and Windows.
 Follow these steps carefully. No prior experience needed.
 
 ### Linux / WSL
-• Clone the repository  
-  git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git
-  cd humanizer  
+```bash
+# Clone the repository
+git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git
+cd humanizer
 
-• Run the installer (sets up Python, pip, venv, and dependencies)  
-  chmod +x install.sh  
-  ./install.sh  
+# Run the installer (sets up Python, pip, venv, and dependencies)
+chmod +x install.sh
+./install.sh
 
-• Start the app  
-  ./run.sh  
+# Start the app
+./run.sh
+````
 
 ### Windows
-• Clone the repository  
-  git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git  
-  cd humanizer  
 
-• Run the installer (sets up Python, pip, venv, and dependencies)  
-  install.bat  
+```bat
+:: Clone the repository
+git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git
+cd humanizer
 
-• Start the app  
-  run.bat  
+:: Run the installer (sets up Python, pip, venv, and dependencies)
+install.bat
+
+:: Start the app
+run.bat
+```
 
 ---
 
 ## Uninstallation
 
-### Linux / WSL  
-• ./uninstall.sh  
+### Linux / WSL
 
-### Windows  
-Delete the following manually:  
-• `.venv` folder  
-• `build/` and `dist/` folders  
-• `Humanizer.spec` (if created)  
+```bash
+./uninstall.sh
+```
+
+### Windows
+
+Delete the following manually:
+
+* `.venv` folder
+* `build/` and `dist/` folders
+* `Humanizer.spec` (if created)
 
 ---
 
 ## Build Executable (Windows only)
-• Run build_exe.bat  
-• Output will be created in `dist/Humanizer.exe`  
+
+```bat
+build_exe.bat
+```
+
+The output will be created in:
+
+```
+dist/Humanizer.exe
+```
 
 ---
 
 ## Project Structure
-• main.py — Main application with UI and logic  
-• install.sh — One-click setup script for Linux/WSL  
-• install.bat — One-click setup script for Windows  
-• run.sh — Start the app on Linux/WSL  
-• run.bat — Start the app on Windows  
-• uninstall.sh — Uninstall script for Linux/WSL  
-• build_exe.bat — Build a standalone Windows executable  
-• requirements.txt — Python dependencies list  
+
+* `main.py` - Main application with UI and logic
+* `install.sh` - One-click setup script for Linux/WSL
+* `install.bat` - One-click setup script for Windows
+* `run.sh` - Start the app on Linux/WSL
+* `run.bat` - Start the app on Windows
+* `uninstall.sh` - Uninstall script for Linux/WSL
+* `build_exe.bat` - Build a standalone Windows executable
+* `requirements.txt` - Python dependencies list
 
 ---
 
 ## Contributing
-Pull requests and suggestions are welcome.  
-If you’d like to add new features (like more voice options or UI improvements), feel free to fork and submit.  
+
+Pull requests and suggestions are welcome.
+If you’d like to add new features (like more voice options or UI improvements), feel free to fork and submit.
 
 ---
 
 ## License
-This project is licensed under the MIT License.  
+
+This project is licensed under the MIT License.
 You are free to use, modify, and distribute with attribution.
