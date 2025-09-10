@@ -28,7 +28,7 @@ git clone https://github.com/nasratulnayem/Humanizer-tts-unlimited-free.git
 cd Humanizer-tts-unlimited-free
 
 # Run the installer (sets up Python, pip, venv, and dependencies)
-chmod +x install.sh
+sudo chmod +x install.sh
 ./install.sh
 
 # Start the app
