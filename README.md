@@ -25,7 +25,7 @@ Follow these steps carefully. No prior experience needed.
 ```bash
 # Clone the repository
 git clone https://github.com/nasratulnayem/Humanizer-tts-unlimited-free.git
-cd humanizer
+cd Humanizer-tts-unlimited-free
 
 # Run the installer (sets up Python, pip, venv, and dependencies)
 chmod +x install.sh
@@ -40,7 +40,7 @@ chmod +x install.sh
 ```bat
 :: Clone the repository
 git clone https://github.com/nasratulnayem/Humanizer-tts-unlimited-free.git
-cd humanizer
+cd Humanizer-tts-unlimited-free
 
 :: Run the installer (sets up Python, pip, venv, and dependencies)
 install.bat
