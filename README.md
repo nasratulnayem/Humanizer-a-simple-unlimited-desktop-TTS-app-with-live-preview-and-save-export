@@ -1,47 +1,88 @@
-Humanizer
+# Humanizer — Desktop Text to Speech (TTS)
 
-Simple and unlimited desktop Text-to-Speech (TTS) app with live preview and save/export.  
-Built with Python, edge-tts, and a minimal modern GUI.
+Humanizer is a simple, responsive, and unlimited desktop TTS application.  
+It lets you preview spoken text in real time, adjust voice settings, and export audio to files.
 
-Features
-• Works on Windows and Linux  
-• Responsive UI with glassy buttons  
-• Multiple voices (male, female, different languages)  
-• Control rate, pitch, volume, and speaking style  
-• Live preview while adjusting settings  
-• Save generated audio as MP3  
+The app is lightweight, cross-platform, and works on Linux and Windows.
 
-Installation (Windows)
-• Download or clone this repository  
-• Double-click install.bat  
-• This will:  
-  • Install Python & pip if missing  
-  • Create a virtual environment  
-  • Install dependencies  
-• Run main.py  
+---
 
-Installation (Linux)
-• Open terminal in project folder  
-• Run:  
+## Features
+• Clean and minimal UI, responsive to all screen sizes  
+• Live preview of text before exporting  
+• Save or export audio in multiple formats  
+• Adjustable voice settings (pitch, rate, volume)  
+• Works offline once installed  
+• Cross-platform support (Windows & Linux/WSL)  
+
+---
+
+## Installation
+
+Follow these steps carefully. No prior experience needed.
+
+### Linux / WSL
+• Clone the repository  
+  git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git
+  cd humanizer  
+
+• Run the installer (sets up Python, pip, venv, and dependencies)  
   chmod +x install.sh  
   ./install.sh  
-• This will:  
-  • Install Python & pip if missing  
-  • Create a virtual environment  
-  • Install dependencies  
-• Run main.py  
 
-Usage
-• Launch with:  
-  python main.py  
-• Type or paste your text  
-• Choose a voice, adjust controls  
-• Click Generate & Play  
-• Save audio as MP3  
+• Start the app  
+  ./run.sh  
 
-Uninstall
-• On Windows: double-click uninstall.bat  
-• On Linux: run ./uninstall.sh  
+### Windows
+• Clone the repository  
+  git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git  
+  cd humanizer  
 
-License
-• MIT License  
+• Run the installer (sets up Python, pip, venv, and dependencies)  
+  install.bat  
+
+• Start the app  
+  run.bat  
+
+---
+
+## Uninstallation
+
+### Linux / WSL  
+• ./uninstall.sh  
+
+### Windows  
+Delete the following manually:  
+• `.venv` folder  
+• `build/` and `dist/` folders  
+• `Humanizer.spec` (if created)  
+
+---
+
+## Build Executable (Windows only)
+• Run build_exe.bat  
+• Output will be created in `dist/Humanizer.exe`  
+
+---
+
+## Project Structure
+• main.py — Main application with UI and logic  
+• install.sh — One-click setup script for Linux/WSL  
+• install.bat — One-click setup script for Windows  
+• run.sh — Start the app on Linux/WSL  
+• run.bat — Start the app on Windows  
+• uninstall.sh — Uninstall script for Linux/WSL  
+• build_exe.bat — Build a standalone Windows executable  
+• requirements.txt — Python dependencies list  
+
+---
+
+## Contributing
+Pull requests and suggestions are welcome.  
+If you’d like to add new features (like more voice options or UI improvements), feel free to fork and submit.  
+
+---
+
+## License
+This project is licensed under the MIT License.  
+You are free to use, modify, and distribute with attribution.
