@@ -24,7 +24,7 @@ Follow these steps carefully. No prior experience needed.
 ### Linux / WSL
 ```bash
 # Clone the repository
-git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git
+git clone https://github.com/nasratulnayem/Humanizer-tts-unlimited-free.git
 cd humanizer
 
 # Run the installer (sets up Python, pip, venv, and dependencies)
@@ -39,7 +39,7 @@ chmod +x install.sh
 
 ```bat
 :: Clone the repository
-git clone https://github.com/nasratulnayem/Humanizer-a-simple-unlimited-desktop-TTS-app-with-live-preview-and-save-export.git
+git clone https://github.com/nasratulnayem/Humanizer-tts-unlimited-free.git
 cd humanizer
 
 :: Run the installer (sets up Python, pip, venv, and dependencies)
